@@ -42,6 +42,7 @@
     }
   ],
   "lookup_history": [
+    "item:minecraft:stone_hoe",
     "item:minecraft:oak_pressure_plate",
     "item:create:brass_door",
     "item:minecraft:oak_door",
@@ -275,6 +276,7 @@
     "item:minecraft:diorite"
   ],
   "craft_history": [
+    "minecraft:stone_hoe",
     "minecraft:oak_pressure_plate",
     "create:crafting/kinetics/brass_door",
     "minecraft:oak_door",
