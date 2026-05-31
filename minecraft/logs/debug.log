@@ -18349,3 +18349,21 @@ C:\Users\sachi\AppData\Roaming\PrismLauncher\instances\Sachi Client S2\minecraft
 [30May2026 20:11:28.117] [Render thread/DEBUG] [com.refinedmods.refinedstorage.common.grid.AbstractGridContainerMenu/]: ItemResource[item=minecraft:oak_planks, components={}] got updated with -1
 [30May2026 20:11:28.716] [Render thread/DEBUG] [com.refinedmods.refinedstorage.common.grid.AbstractGridContainerMenu/]: ItemResource[item=minecraft:oak_planks, components={}] got updated with -1
 [30May2026 20:11:28.716] [Render thread/DEBUG] [com.refinedmods.refinedstorage.common.grid.AbstractGridContainerMenu/]: ItemResource[item=minecraft:oak_planks, components={}] got updated with -1
+[30May2026 20:29:33.573] [Render thread/DEBUG] [com.refinedmods.refinedstorage.api.resource.repository.ResourceRepositoryImpl/]: Sorting resource repository
+[30May2026 20:29:33.575] [Render thread/DEBUG] [com.refinedmods.refinedstorage.common.grid.screen.AbstractGridScreen/]: Initializing grid screen - this shouldn't happen too much!
+[30May2026 20:29:33.607] [Render thread/DEBUG] [com.refinedmods.refinedstorage.api.resource.repository.ResourceRepositoryImpl/]: Sorting resource repository
+[30May2026 20:29:33.609] [Render thread/DEBUG] [com.refinedmods.refinedstorage.api.resource.repository.ResourceRepositoryImpl/]: Sorting resource repository
+[30May2026 20:29:34.342] [Render thread/DEBUG] [com.refinedmods.refinedstorage.api.resource.repository.ResourceRepositoryImpl/]: Sorting resource repository
+[30May2026 20:29:34.489] [Render thread/DEBUG] [com.refinedmods.refinedstorage.api.resource.repository.ResourceRepositoryImpl/]: Sorting resource repository
+[30May2026 20:29:35.056] [Render thread/DEBUG] [com.refinedmods.refinedstorage.api.resource.repository.ResourceRepositoryImpl/]: Sorting resource repository
+[30May2026 20:29:35.309] [Render thread/DEBUG] [com.refinedmods.refinedstorage.api.resource.repository.ResourceRepositoryImpl/]: Sorting resource repository
+[30May2026 20:29:35.390] [Render thread/DEBUG] [com.refinedmods.refinedstorage.api.resource.repository.ResourceRepositoryImpl/]: Sorting resource repository
+[30May2026 20:29:38.391] [Render thread/DEBUG] [com.refinedmods.refinedstorage.common.grid.screen.AbstractGridScreen/]: Initializing grid screen - this shouldn't happen too much!
+[30May2026 20:29:38.539] [Render thread/DEBUG] [com.refinedmods.refinedstorage.common.grid.AbstractGridContainerMenu/]: ItemResource[item=minecraft:cobbled_deepslate, components={}] got updated with -1
+[30May2026 20:29:38.539] [Render thread/DEBUG] [com.refinedmods.refinedstorage.common.grid.AbstractGridContainerMenu/]: ItemResource[item=minecraft:cobbled_deepslate, components={}] got updated with -1
+[30May2026 20:29:38.539] [Render thread/DEBUG] [com.refinedmods.refinedstorage.common.grid.AbstractGridContainerMenu/]: ItemResource[item=minecraft:stick, components={}] got updated with -1
+[30May2026 20:29:38.539] [Render thread/DEBUG] [com.refinedmods.refinedstorage.common.grid.AbstractGridContainerMenu/]: ItemResource[item=minecraft:stick, components={}] got updated with -1
+[30May2026 20:29:39.524] [Render thread/DEBUG] [com.refinedmods.refinedstorage.common.grid.AbstractGridContainerMenu/]: ItemResource[item=minecraft:cobbled_deepslate, components={}] got updated with -1
+[30May2026 20:29:39.524] [Render thread/DEBUG] [com.refinedmods.refinedstorage.common.grid.AbstractGridContainerMenu/]: ItemResource[item=minecraft:cobbled_deepslate, components={}] got updated with -1
+[30May2026 20:29:39.524] [Render thread/DEBUG] [com.refinedmods.refinedstorage.common.grid.AbstractGridContainerMenu/]: ItemResource[item=minecraft:stick, components={}] got updated with -1
+[30May2026 20:29:39.524] [Render thread/DEBUG] [com.refinedmods.refinedstorage.common.grid.AbstractGridContainerMenu/]: ItemResource[item=minecraft:stick, components={}] got updated with -1
