@@ -276,6 +276,7 @@
     "item:minecraft:diorite"
   ],
   "craft_history": [
+    "minecraft:oak_planks",
     "minecraft:bread",
     "minecraft:stone_hoe",
     "minecraft:oak_pressure_plate",
@@ -285,7 +286,6 @@
     "minecraft:compass",
     "minecraft:redstone_torch",
     "minecraft:stick",
-    "minecraft:oak_planks",
     "minecraft:repeater",
     "minecraft:barrel",
     "minecraft:hopper",
