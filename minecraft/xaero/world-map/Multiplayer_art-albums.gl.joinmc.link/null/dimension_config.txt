@@ -1,4 +1,0 @@
-confirmedMultiworld:cm$default
-MWName:cm$default:Default
-caveModeType:1
-dimensionTypeId:minecraft:overworld

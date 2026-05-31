@@ -1,5 +1,0 @@
-#Sat Apr 25 23:39:26 AST 2026
-ANTI_ALIASING=0
-DOF=true
-SSAO=false
-shadowMapResolution=512
