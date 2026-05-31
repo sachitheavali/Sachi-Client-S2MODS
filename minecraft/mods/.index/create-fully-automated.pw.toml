@@ -1,0 +1,21 @@
+filename = 'create_fully_automated_neoforge-2.0-neoforge-1.21.1.jar'
+name = 'Create: Fully Automated'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0'
+
+[download]
+hash = '9b0942a00d2677c74e6e48db7d2da263e9ac51284c498254b22ea5096249f37fb7f71545eae77d42b96778468f74a39bb7e509e098415830486fe9cf0deb7117'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8f6jkgAa/versions/An4Ms1Sz/create_fully_automated_neoforge-2.0-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = '8f6jkgAa'
+version = 'An4Ms1Sz'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
