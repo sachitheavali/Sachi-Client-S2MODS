@@ -1,0 +1,1126 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-05-01 20:44:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:desert": "2026-05-01 20:44:10 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2026-05-01 20:44:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2026-05-01 20:44:28 -0400"
+    },
+    "done": true
+  },
+  "create_connected:root": {
+    "criteria": {
+      "0": "2026-05-01 20:44:28 -0400"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2026-05-01 20:44:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-05-01 20:44:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2026-05-01 20:44:28 -0400"
+    },
+    "done": true
+  },
+  "simulated:root": {
+    "criteria": {
+      "0": "2026-05-01 20:44:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-05-01 20:44:28 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:root": {
+    "criteria": {
+      "0": "2026-05-01 20:44:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2026-05-01 20:44:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-05-01 20:44:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-05-01 20:44:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-05-01 20:44:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2026-05-01 20:44:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2026-05-01 20:44:28 -0400"
+    },
+    "done": true
+  },
+  "create:wrench_goggles": {
+    "criteria": {
+      "0": "2026-05-01 20:47:27 -0400",
+      "1": "2026-05-01 20:46:02 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/aviators_goggles": {
+    "criteria": {
+      "has_ingredient": "2026-05-01 20:46:02 -0400"
+    },
+    "done": true
+  },
+  "createaddition:recipes/redstone/crafting/electrum_spool": {
+    "criteria": {
+      "has_wired_spool": "2026-05-01 20:48:19 -0400"
+    },
+    "done": true
+  },
+  "createaddition:recipes/combat/crafting/electrum_amulet": {
+    "criteria": {
+      "has_electrum_wire": "2026-05-01 20:50:19 -0400"
+    },
+    "done": true
+  },
+  "createaddition:recipes/redstone/crafting/modular_accumulator": {
+    "criteria": {
+      "has_wires": "2026-05-01 20:50:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2026-05-01 20:59:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_wood_slab": "2026-05-01 20:59:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2026-05-01 21:05:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2026-05-01 21:05:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2026-05-01 21:05:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2026-05-01 21:05:18 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/spruce_window": {
+    "criteria": {
+      "has_ingredient": "2026-05-01 21:05:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2026-05-01 21:05:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-05-01 21:05:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-05-01 21:05:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2026-05-01 21:05:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-05-01 21:05:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2026-05-01 21:05:18 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:high_fashion": {
+    "criteria": {
+      "0": "2026-05-01 21:15:20 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:head_in_the_clouds": {
+    "criteria": {
+      "0": "2026-05-01 21:34:33 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-05-01 21:36:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
+    "criteria": {
+      "has_netherite_block": "2026-05-01 21:36:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2026-05-01 22:09:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-05-01 22:09:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2026-05-01 22:09:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2026-05-01 22:09:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2026-05-01 22:09:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2026-05-01 22:09:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-05-01 22:09:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-05-01 22:09:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2026-05-01 22:09:04 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/oak_window": {
+    "criteria": {
+      "has_ingredient": "2026-05-01 22:09:04 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:for_every_action": {
+    "criteria": {
+      "0": "2026-05-01 22:14:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2026-05-01 22:14:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2026-05-01 22:14:31 -0400"
+    },
+    "done": true
+  },
+  "create_connected:recipes/misc/crafting/kinetics/clutch_from_conversion": {
+    "criteria": {
+      "has_item": "2026-05-01 22:16:09 -0400"
+    },
+    "done": true
+  },
+  "create_connected:recipes/misc/crafting/kinetics/inverted_gearshift_from_conversion": {
+    "criteria": {
+      "has_item": "2026-05-01 22:16:11 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:in_thrust_we_trust": {
+    "criteria": {
+      "0": "2026-05-01 22:29:56 -0400"
+    },
+    "done": true
+  },
+  "create_connected:recipes/misc/crafting/kinetics/encased_chain_cogwheel": {
+    "criteria": {
+      "has_item": "2026-05-04 12:05:29 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/white_sail": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 12:05:49 -0400"
+    },
+    "done": true
+  },
+  "simulated:unpowered_steering": {
+    "criteria": {
+      "0": "2026-05-04 12:09:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2026-05-04 12:29:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2026-05-04 12:29:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-05-04 12:29:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2026-05-04 12:29:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2026-05-04 12:29:27 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/yellow_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-05-04 12:38:34 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/blue_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-05-04 12:38:34 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/pink_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-05-04 12:38:34 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/green_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-05-04 12:38:34 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/white_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-05-04 12:38:34 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/cyan_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-05-04 12:38:34 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/black_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-05-04 12:38:34 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/lime_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-05-04 12:38:34 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/purple_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-05-04 12:38:34 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/light_blue_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-05-04 12:38:34 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/red_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-05-04 12:38:34 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/orange_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-05-04 12:38:34 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/magenta_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-05-04 12:38:34 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/light_gray_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-05-04 12:38:34 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/brown_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-05-04 12:38:34 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/gray_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2026-05-04 12:38:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2026-05-04 12:40:37 -0400"
+    },
+    "done": true
+  },
+  "simulated:a_calculated_connection": {
+    "criteria": {
+      "0": "2026-05-04 13:14:43 -0400"
+    },
+    "done": true
+  },
+  "simulated:not_gonna_sugarcoat_it": {
+    "criteria": {
+      "0": "2026-05-04 13:30:08 -0400"
+    },
+    "done": true
+  },
+  "simulated:applied_kinematics": {
+    "criteria": {
+      "0": "2026-05-04 13:31:56 -0400"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/contraption_diagram": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 13:31:56 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/lime_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/yellow_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/light_blue_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/green_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/brown_seat": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/magenta_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/gray_seat": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/magenta_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/yellow_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/orange_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/orange_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/red_seat": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/light_gray_seat": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/blue_seat": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/orange_seat": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/blue_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/magenta_seat": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/blue_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/green_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/black_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/light_blue_seat": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/cyan_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/light_gray_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/cyan_seat": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/cyan_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/purple_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/red_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/light_blue_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/white_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/gray_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/gray_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/red_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/brown_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/pink_seat": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/black_seat": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/black_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/pink_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/white_seat": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/light_gray_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/brown_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/lime_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/green_seat": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/pink_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/lime_seat": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/purple_seat": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:recipes/misc/white_envelope": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/yellow_seat": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/logistics/purple_table_cloth": {
+    "criteria": {
+      "has_wool": "2026-05-04 13:37:22 -0400"
+    },
+    "done": true
+  },
+  "create_connected:recipes/misc/crafting/kinetics/linked_transmitter_from_conversion": {
+    "criteria": {
+      "has_item": "2026-05-04 13:39:23 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/linked_controller": {
+    "criteria": {
+      "has_item": "2026-05-04 13:39:23 -0400"
+    },
+    "done": true
+  },
+  "simulated:measure_once_build_twice": {
+    "criteria": {
+      "0": "2026-05-04 15:44:19 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_saw": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/torsion_spring": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/redstone_link": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/desk_bell": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_press": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_roller": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/physics_assembler": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/andesite_door": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/directional_gearshift": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/portable_storage_interface": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_bearing": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/velocity_sensor": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/laser_pointer": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gantry_carriage": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/weighted_ejector": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "offroad:recipes/misc/wheel_mount": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/laser_sensor": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/millstone": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_plough": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/chain_conveyor": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_harvester": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/encased_chain_drive_from_zinc": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/clutch": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/depot": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/encased_chain_drive": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_drill": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/altitude_sensor": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_piston": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gearshift": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "createaddition:recipes/misc/crafting/rolling_mill": {
+    "criteria": {
+      "has_andesite_casing": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "simulated:recipes/misc/swivel_bearing": {
+    "criteria": {
+      "has_ingredient": "2026-05-04 18:13:11 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gearbox": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:26 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/vertical_gearbox": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:26 -0400"
+    },
+    "done": true
+  },
+  "create_connected:recipes/misc/crafting/kinetics/crank_wheel": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:26 -0400"
+    },
+    "done": true
+  },
+  "create_connected:recipes/misc/crafting/kinetics/freewheel_clutch": {
+    "criteria": {
+      "has_item": "2026-05-04 18:13:26 -0400"
+    },
+    "done": true
+  },
+  "simulated:you_spin_me_right_round": {
+    "criteria": {
+      "0": "2026-05-04 18:40:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2026-05-04 18:43:01 -0400"
+    },
+    "done": true
+  },
+  "simulated:steamless_engine": {
+    "criteria": {
+      "0": "2026-05-04 18:43:06 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-05-04 19:21:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2026-05-09 23:22:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2026-05-09 23:22:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2026-05-09 23:22:36 -0400"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/quickfiring_mechanism": {
+    "criteria": {
+      "has_lever": "2026-05-30 11:36:14 -0400"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/gas_mask": {
+    "criteria": {
+      "has_wool": "2026-05-30 11:36:14 -0400"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/autocannon_ammo_container": {
+    "criteria": {
+      "has_autocannon_cartridge": "2026-05-30 11:41:40 -0400"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/cannon_mount_extension": {
+    "criteria": {
+      "has_cannon_mount": "2026-05-30 11:42:00 -0400"
+    },
+    "done": true
+  },
+  "refinedstorage:interfacing_with_disks": {
+    "criteria": {
+      "disk_interface_in_inventory": "2026-05-30 11:45:35 -0400"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/delayed_impact_fuze": {
+    "criteria": {
+      "has_impact_fuze": "2026-05-30 12:05:06 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}

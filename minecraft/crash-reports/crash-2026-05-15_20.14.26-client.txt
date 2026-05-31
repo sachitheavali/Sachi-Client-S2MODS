@@ -1,0 +1,395 @@
+---- Minecraft Crash Report ----
+
+// tfw no sable gf
+Please make sure this issue is not caused by Sable before reporting it to other mod authors.
+If you cannot reproduce it without Sable, file a report on the issue tracker
+https://github.com/ryanhcode/sable/issues
+
+// You should try our sister game, Minceraft!
+
+Time: 2026-05-15 20:14:26
+Description: Initializing game
+
+org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-11.0.5.jar:11.0.5+main.901c6ea8] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94) ~[modlauncher-11.0.5.jar:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-11.0.5.jar:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57) ~[modlauncher-11.0.5.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:214) ~[securejarhandler-3.0.8.jar:?] {}
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.LevelRenderer.handler$cbg000$sodium$init(LevelRenderer.java:16764) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:veil.dynamicbuffer.mixins.json:client.DynamicBufferLevelRendererMixin from mod veil,pl:mixin:APP:mixins.iris.vertexformat.json:immediate.MixinLevelRenderer from mod iris,pl:mixin:APP:iris-batched-entity-rendering.mixins.json:MixinLevelRenderer from mod iris,pl:mixin:APP:iris-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting from mod iris,pl:mixin:APP:sodium-extra.mixins.json:optimizations.beacon_beam_rendering.LevelRendererAccessor from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:particle.MixinLevelRenderer from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:sky.MixinLevelRenderer from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:stars.MixinLevelRenderer from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:sun_moon.MixinLevelRenderer from mod sodium_extra,pl:mixin:APP:mixins.iris.json:LevelRendererAccessor from mod iris,pl:mixin:APP:mixins.iris.json:MixinLevelRenderer from mod iris,pl:mixin:APP:mixins.iris.json:MixinLevelRenderer_SkipRendering from mod iris,pl:mixin:APP:mixins.iris.json:MixinLevelRenderer_Sky from mod iris,pl:mixin:APP:mixins.iris.json:fabulous.MixinDisableFabulousGraphics from mod iris,pl:mixin:APP:mixins.iris.json:shadows.MixinLevelRenderer from mod iris,pl:mixin:APP:mixins.iris.json:sky.MixinLevelRenderer_SunMoonToggle from mod iris,pl:mixin:APP:veil.debug.mixins.json:accessor.DebugLevelRendererAccessor from mod veil,pl:mixin:APP:veil.debug.mixins.json:client.DebugLevelRendererMixin from mod veil,pl:mixin:APP:veil.necromancer.mixins.json:client.NecromancerLevelRendererMixin from mod veil,pl:mixin:APP:veil.performance.mixins.json:client.PerformanceLevelRendererMixin from mod veil,pl:mixin:APP:veil.perspective.mixins.json:accessor.LevelRendererAccessor from mod veil,pl:mixin:APP:veil.pipeline.mixins.json:client.PipelineLevelRendererMixin from mod veil,pl:mixin:APP:veil.neoforge.mixins.json:client.dynamicbuffer.LevelRendererMixin from mod veil,pl:mixin:APP:simulated.mixins.json:accessor.LevelRendererAccessor from mod simulated,pl:mixin:APP:simulated.mixins.json:end_sea.LevelRendererMixin from mod simulated,pl:mixin:APP:simulated.mixins.json:rope.LevelRendererMixin from mod simulated,pl:mixin:APP:sodium-common.mixins.json:core.render.world.LevelRendererMixin from mod sodium,pl:mixin:APP:sodium-common.mixins.json:features.options.weather.LevelRendererMixin from mod sodium,pl:mixin:APP:sodium-common.mixins.json:features.render.gui.outlines.LevelRendererMixin from mod sodium,pl:mixin:APP:sodium-common.mixins.json:features.render.world.clouds.LevelRendererMixin from mod sodium,pl:mixin:APP:offroad.mixins.json:client.multimining_destruction_progress.LevelRenderMixin from mod offroad,pl:mixin:APP:cubes-without-borders.mixins.json:WorldRendererMixin from mod cubes_without_borders,pl:mixin:APP:flywheel.backend.mixins.json:LevelRendererAccessor from mod flywheel,pl:mixin:APP:flywheel.impl.mixins.json:fix.FixFabulousDepthMixin from mod flywheel,pl:mixin:APP:flywheel.impl.mixins.json:visualmanage.LevelRendererMixin from mod flywheel,pl:mixin:APP:create.mixins.json:accessor.LevelRendererAccessor from mod create,pl:mixin:APP:create.mixins.json:client.LevelRendererMixin from mod create,pl:mixin:APP:sable.mixins.json:block_decal_render.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:debug_render.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:entity.entity_rendering.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:particle.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:sky_light_shadow.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:stop_rain.LevelRenderMixin from mod sable,pl:mixin:APP:sable.mixins.json:sublevel_render.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:sublevel_render.block_entity_render.LevelRendererMixin from mod sable,pl:mixin:APP:freecam-neoforge.mixins.json:LevelRendererMixin from mod freecam,pl:mixin:APP:entityculling.mixins.json:WorldRendererMixin from mod entityculling,pl:mixin:APP:flywheel.impl.mixins.json:LevelRendererMixin from mod flywheel,pl:mixin:APP:sable.mixins.json:sublevel_render.impl.sodium.LevelRendererMixin from mod sable,pl:mixin:APP:mixins.iris.json:shadows.MixinPreventRebuildNearInShadowPass from mod iris,pl:mixin:APP:sable-neoforge.mixins.json:block_entity_visible.LevelRendererMixin from mod sable,pl:mixin:APP:sable-neoforge.mixins.json:block_outline_render.LevelRendererMixin from mod sable,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.LevelRenderer.<init>(LevelRenderer.java:260) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:veil.dynamicbuffer.mixins.json:client.DynamicBufferLevelRendererMixin from mod veil,pl:mixin:APP:mixins.iris.vertexformat.json:immediate.MixinLevelRenderer from mod iris,pl:mixin:APP:iris-batched-entity-rendering.mixins.json:MixinLevelRenderer from mod iris,pl:mixin:APP:iris-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting from mod iris,pl:mixin:APP:sodium-extra.mixins.json:optimizations.beacon_beam_rendering.LevelRendererAccessor from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:particle.MixinLevelRenderer from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:sky.MixinLevelRenderer from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:stars.MixinLevelRenderer from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:sun_moon.MixinLevelRenderer from mod sodium_extra,pl:mixin:APP:mixins.iris.json:LevelRendererAccessor from mod iris,pl:mixin:APP:mixins.iris.json:MixinLevelRenderer from mod iris,pl:mixin:APP:mixins.iris.json:MixinLevelRenderer_SkipRendering from mod iris,pl:mixin:APP:mixins.iris.json:MixinLevelRenderer_Sky from mod iris,pl:mixin:APP:mixins.iris.json:fabulous.MixinDisableFabulousGraphics from mod iris,pl:mixin:APP:mixins.iris.json:shadows.MixinLevelRenderer from mod iris,pl:mixin:APP:mixins.iris.json:sky.MixinLevelRenderer_SunMoonToggle from mod iris,pl:mixin:APP:veil.debug.mixins.json:accessor.DebugLevelRendererAccessor from mod veil,pl:mixin:APP:veil.debug.mixins.json:client.DebugLevelRendererMixin from mod veil,pl:mixin:APP:veil.necromancer.mixins.json:client.NecromancerLevelRendererMixin from mod veil,pl:mixin:APP:veil.performance.mixins.json:client.PerformanceLevelRendererMixin from mod veil,pl:mixin:APP:veil.perspective.mixins.json:accessor.LevelRendererAccessor from mod veil,pl:mixin:APP:veil.pipeline.mixins.json:client.PipelineLevelRendererMixin from mod veil,pl:mixin:APP:veil.neoforge.mixins.json:client.dynamicbuffer.LevelRendererMixin from mod veil,pl:mixin:APP:simulated.mixins.json:accessor.LevelRendererAccessor from mod simulated,pl:mixin:APP:simulated.mixins.json:end_sea.LevelRendererMixin from mod simulated,pl:mixin:APP:simulated.mixins.json:rope.LevelRendererMixin from mod simulated,pl:mixin:APP:sodium-common.mixins.json:core.render.world.LevelRendererMixin from mod sodium,pl:mixin:APP:sodium-common.mixins.json:features.options.weather.LevelRendererMixin from mod sodium,pl:mixin:APP:sodium-common.mixins.json:features.render.gui.outlines.LevelRendererMixin from mod sodium,pl:mixin:APP:sodium-common.mixins.json:features.render.world.clouds.LevelRendererMixin from mod sodium,pl:mixin:APP:offroad.mixins.json:client.multimining_destruction_progress.LevelRenderMixin from mod offroad,pl:mixin:APP:cubes-without-borders.mixins.json:WorldRendererMixin from mod cubes_without_borders,pl:mixin:APP:flywheel.backend.mixins.json:LevelRendererAccessor from mod flywheel,pl:mixin:APP:flywheel.impl.mixins.json:fix.FixFabulousDepthMixin from mod flywheel,pl:mixin:APP:flywheel.impl.mixins.json:visualmanage.LevelRendererMixin from mod flywheel,pl:mixin:APP:create.mixins.json:accessor.LevelRendererAccessor from mod create,pl:mixin:APP:create.mixins.json:client.LevelRendererMixin from mod create,pl:mixin:APP:sable.mixins.json:block_decal_render.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:debug_render.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:entity.entity_rendering.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:particle.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:sky_light_shadow.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:stop_rain.LevelRenderMixin from mod sable,pl:mixin:APP:sable.mixins.json:sublevel_render.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:sublevel_render.block_entity_render.LevelRendererMixin from mod sable,pl:mixin:APP:freecam-neoforge.mixins.json:LevelRendererMixin from mod freecam,pl:mixin:APP:entityculling.mixins.json:WorldRendererMixin from mod entityculling,pl:mixin:APP:flywheel.impl.mixins.json:LevelRendererMixin from mod flywheel,pl:mixin:APP:sable.mixins.json:sublevel_render.impl.sodium.LevelRendererMixin from mod sable,pl:mixin:APP:mixins.iris.json:shadows.MixinPreventRebuildNearInShadowPass from mod iris,pl:mixin:APP:sable-neoforge.mixins.json:block_entity_visible.LevelRendererMixin from mod sable,pl:mixin:APP:sable-neoforge.mixins.json:block_outline_render.LevelRendererMixin from mod sable,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:568) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:sodium-extra.mixins.json:core.MixinMinecraftClient from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor from mod sodium_extra,pl:mixin:APP:lithium-neoforge.mixins.json:startup.MinecraftMixin from mod lithium,pl:mixin:APP:aeronautics.mixins.json:custom_situational_music.MinecraftMixin from mod aeronautics,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftClient from mod xaeroworldmap,pl:mixin:APP:xaeroworldmap.neoforge.mixins.json:MixinForgeMinecraftClient from mod xaeroworldmap,pl:mixin:APP:modernfix-modernfix.mixins.json:bugfix.world_leaks.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.suspend_integrated_server_during_load.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.encoder_cache_leak.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.measure_time.MinecraftMixin_Forge from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.measure_time.MinecraftMixin from mod modernfix,pl:mixin:APP:mixins.iris.json:MixinMinecraft_Images from mod iris,pl:mixin:APP:mixins.iris.json:MixinMinecraft_Keybinds from mod iris,pl:mixin:APP:mixins.iris.json:MixinMinecraft_PipelineManagement from mod iris,pl:mixin:APP:veil.debug.mixins.json:client.DebugMinecraftMixin from mod veil,pl:mixin:APP:veil.pipeline.mixins.json:client.PipelineMinecraftMixin from mod veil,pl:mixin:APP:veil.neoforge.mixins.json:client.MinecraftMixin from mod veil,pl:mixin:APP:simulated.mixins.json:handle.MinecraftMixin from mod simulated,pl:mixin:APP:clientsort.mixins.json:client.MinecraftMixin from mod clientsort,pl:mixin:APP:sodium-common.mixins.json:core.MinecraftMixin from mod sodium,pl:mixin:APP:sodium-neoforge.mixins.json:platform.neoforge.EntrypointMixin from mod sodium,pl:mixin:APP:entity_model_features.mixins.json:MixinResourceReloadStart from mod entity_model_features,pl:mixin:APP:entity_model_features.mixins.json:accessor.MinecraftClientAccessor from mod entity_model_features,pl:mixin:APP:emi.mixins.json:MinecraftClientMixin from mod emi,pl:mixin:APP:entity_texture_features.mixins.json:reloading.MixinMinecraftClient from mod entity_texture_features,pl:mixin:APP:entity_texture_features.mixins.json:reloading.MixinResourceReload from mod entity_texture_features,pl:mixin:APP:flywheel.impl.mixins.json:MinecraftMixin from mod flywheel,pl:mixin:APP:ponder-common.mixins.json:client.WindowResizeMixin from mod ponder,pl:mixin:APP:create.mixins.json:accessor.MinecraftAccessor from mod create,pl:mixin:APP:sable.mixins.json:camera.new_camera_types.MinecraftMixin from mod sable,pl:mixin:APP:sable.mixins.json:plot.MinecraftMixin from mod sable,pl:mixin:APP:sable.mixins.json:punching.MinecraftMixin from mod sable,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftClient from mod xaerominimap,pl:mixin:APP:freecam-common.mixins.json:MinecraftMixin from mod freecam,pl:mixin:APP:entityculling.mixins.json:DebugScreenEntriesAccessor from mod entityculling,pl:mixin:APP:entityculling.mixins.json:LivingEntityRendererAccessor from mod entityculling,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient from mod immediatelyfast,pl:mixin:APP:architectury.mixins.json:MixinMinecraft from mod architectury,pl:mixin:APP:transition.mixins.json:EntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:EntityRendererMixin from mod transition,pl:mixin:APP:transition.mixins.json:BlockEntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:MinecraftMixin from mod transition,pl:mixin:APP:dynamic_fps-common.mixins.json:MinecraftMixin from mod dynamic_fps,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.remove_telemetry.MinecraftMixin_Telemetry from mod modernfix,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:veil.debug.mixins.json:client.DebugMainMixin from mod veil,pl:mixin:APP:cubes-without-borders.mixins.json:MainMixin from mod cubes_without_borders,pl:mixin:A,pl:runtimedistcleaner:A}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23161!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.42.jar%23161!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.42.jar%23161!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.42.jar%23161!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23166!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23166!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23166!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23166!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23166!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23166!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23166!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) [ForgeWrapper-prism-2025-12-07.jar:prism-2025-12-07] {}
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115) [NewLaunch.jar:?] {}
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) [NewLaunch.jar:?] {}
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) [NewLaunch.jar:?] {}
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinPreProcessorException: Attach error for sable.mixins.json:sublevel_render.impl.sodium.SodiumWorldRendererMixin from mod sable during activity: [Transform -> Method sable$setupTerrain(Lnet/minecraft/client/Camera;Lnet/caffeinemc/mods/sodium/client/render/viewport/Viewport;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V -> GETFIELD -> net/caffeinemc/mods/sodium/client/gui/SodiumGameOptions::performance:Lnet/caffeinemc/mods/sodium/client/gui/SodiumGameOptions$PerformanceSettings;]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:313) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:277) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1288) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:203) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	... 38 more
+Caused by: java.lang.RuntimeException: java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.gui.SodiumGameOptions
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.transformMemberReference(MixinPreProcessorStandard.java:791) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.transformField(MixinPreProcessorStandard.java:782) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.transform(MixinPreProcessorStandard.java:745) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:307) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:277) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1288) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:203) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	... 38 more
+Caused by: java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.gui.SodiumGameOptions
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.transformMemberReference(MixinPreProcessorStandard.java:791) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.transformField(MixinPreProcessorStandard.java:782) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.transform(MixinPreProcessorStandard.java:745) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:307) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:277) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1288) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:203) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	... 38 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-11.0.5.jar:11.0.5+main.901c6ea8] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94) ~[modlauncher-11.0.5.jar:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-11.0.5.jar:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57) ~[modlauncher-11.0.5.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:214) ~[securejarhandler-3.0.8.jar:?] {}
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.LevelRenderer.handler$cbg000$sodium$init(LevelRenderer.java:16764) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:veil.dynamicbuffer.mixins.json:client.DynamicBufferLevelRendererMixin from mod veil,pl:mixin:APP:mixins.iris.vertexformat.json:immediate.MixinLevelRenderer from mod iris,pl:mixin:APP:iris-batched-entity-rendering.mixins.json:MixinLevelRenderer from mod iris,pl:mixin:APP:iris-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting from mod iris,pl:mixin:APP:sodium-extra.mixins.json:optimizations.beacon_beam_rendering.LevelRendererAccessor from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:particle.MixinLevelRenderer from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:sky.MixinLevelRenderer from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:stars.MixinLevelRenderer from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:sun_moon.MixinLevelRenderer from mod sodium_extra,pl:mixin:APP:mixins.iris.json:LevelRendererAccessor from mod iris,pl:mixin:APP:mixins.iris.json:MixinLevelRenderer from mod iris,pl:mixin:APP:mixins.iris.json:MixinLevelRenderer_SkipRendering from mod iris,pl:mixin:APP:mixins.iris.json:MixinLevelRenderer_Sky from mod iris,pl:mixin:APP:mixins.iris.json:fabulous.MixinDisableFabulousGraphics from mod iris,pl:mixin:APP:mixins.iris.json:shadows.MixinLevelRenderer from mod iris,pl:mixin:APP:mixins.iris.json:sky.MixinLevelRenderer_SunMoonToggle from mod iris,pl:mixin:APP:veil.debug.mixins.json:accessor.DebugLevelRendererAccessor from mod veil,pl:mixin:APP:veil.debug.mixins.json:client.DebugLevelRendererMixin from mod veil,pl:mixin:APP:veil.necromancer.mixins.json:client.NecromancerLevelRendererMixin from mod veil,pl:mixin:APP:veil.performance.mixins.json:client.PerformanceLevelRendererMixin from mod veil,pl:mixin:APP:veil.perspective.mixins.json:accessor.LevelRendererAccessor from mod veil,pl:mixin:APP:veil.pipeline.mixins.json:client.PipelineLevelRendererMixin from mod veil,pl:mixin:APP:veil.neoforge.mixins.json:client.dynamicbuffer.LevelRendererMixin from mod veil,pl:mixin:APP:simulated.mixins.json:accessor.LevelRendererAccessor from mod simulated,pl:mixin:APP:simulated.mixins.json:end_sea.LevelRendererMixin from mod simulated,pl:mixin:APP:simulated.mixins.json:rope.LevelRendererMixin from mod simulated,pl:mixin:APP:sodium-common.mixins.json:core.render.world.LevelRendererMixin from mod sodium,pl:mixin:APP:sodium-common.mixins.json:features.options.weather.LevelRendererMixin from mod sodium,pl:mixin:APP:sodium-common.mixins.json:features.render.gui.outlines.LevelRendererMixin from mod sodium,pl:mixin:APP:sodium-common.mixins.json:features.render.world.clouds.LevelRendererMixin from mod sodium,pl:mixin:APP:offroad.mixins.json:client.multimining_destruction_progress.LevelRenderMixin from mod offroad,pl:mixin:APP:cubes-without-borders.mixins.json:WorldRendererMixin from mod cubes_without_borders,pl:mixin:APP:flywheel.backend.mixins.json:LevelRendererAccessor from mod flywheel,pl:mixin:APP:flywheel.impl.mixins.json:fix.FixFabulousDepthMixin from mod flywheel,pl:mixin:APP:flywheel.impl.mixins.json:visualmanage.LevelRendererMixin from mod flywheel,pl:mixin:APP:create.mixins.json:accessor.LevelRendererAccessor from mod create,pl:mixin:APP:create.mixins.json:client.LevelRendererMixin from mod create,pl:mixin:APP:sable.mixins.json:block_decal_render.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:debug_render.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:entity.entity_rendering.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:particle.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:sky_light_shadow.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:stop_rain.LevelRenderMixin from mod sable,pl:mixin:APP:sable.mixins.json:sublevel_render.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:sublevel_render.block_entity_render.LevelRendererMixin from mod sable,pl:mixin:APP:freecam-neoforge.mixins.json:LevelRendererMixin from mod freecam,pl:mixin:APP:entityculling.mixins.json:WorldRendererMixin from mod entityculling,pl:mixin:APP:flywheel.impl.mixins.json:LevelRendererMixin from mod flywheel,pl:mixin:APP:sable.mixins.json:sublevel_render.impl.sodium.LevelRendererMixin from mod sable,pl:mixin:APP:mixins.iris.json:shadows.MixinPreventRebuildNearInShadowPass from mod iris,pl:mixin:APP:sable-neoforge.mixins.json:block_entity_visible.LevelRendererMixin from mod sable,pl:mixin:APP:sable-neoforge.mixins.json:block_outline_render.LevelRendererMixin from mod sable,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.LevelRenderer.<init>(LevelRenderer.java:260) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:veil.dynamicbuffer.mixins.json:client.DynamicBufferLevelRendererMixin from mod veil,pl:mixin:APP:mixins.iris.vertexformat.json:immediate.MixinLevelRenderer from mod iris,pl:mixin:APP:iris-batched-entity-rendering.mixins.json:MixinLevelRenderer from mod iris,pl:mixin:APP:iris-batched-entity-rendering.mixins.json:MixinLevelRenderer_EntityListSorting from mod iris,pl:mixin:APP:sodium-extra.mixins.json:optimizations.beacon_beam_rendering.LevelRendererAccessor from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:particle.MixinLevelRenderer from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:sky.MixinLevelRenderer from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:stars.MixinLevelRenderer from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:sun_moon.MixinLevelRenderer from mod sodium_extra,pl:mixin:APP:mixins.iris.json:LevelRendererAccessor from mod iris,pl:mixin:APP:mixins.iris.json:MixinLevelRenderer from mod iris,pl:mixin:APP:mixins.iris.json:MixinLevelRenderer_SkipRendering from mod iris,pl:mixin:APP:mixins.iris.json:MixinLevelRenderer_Sky from mod iris,pl:mixin:APP:mixins.iris.json:fabulous.MixinDisableFabulousGraphics from mod iris,pl:mixin:APP:mixins.iris.json:shadows.MixinLevelRenderer from mod iris,pl:mixin:APP:mixins.iris.json:sky.MixinLevelRenderer_SunMoonToggle from mod iris,pl:mixin:APP:veil.debug.mixins.json:accessor.DebugLevelRendererAccessor from mod veil,pl:mixin:APP:veil.debug.mixins.json:client.DebugLevelRendererMixin from mod veil,pl:mixin:APP:veil.necromancer.mixins.json:client.NecromancerLevelRendererMixin from mod veil,pl:mixin:APP:veil.performance.mixins.json:client.PerformanceLevelRendererMixin from mod veil,pl:mixin:APP:veil.perspective.mixins.json:accessor.LevelRendererAccessor from mod veil,pl:mixin:APP:veil.pipeline.mixins.json:client.PipelineLevelRendererMixin from mod veil,pl:mixin:APP:veil.neoforge.mixins.json:client.dynamicbuffer.LevelRendererMixin from mod veil,pl:mixin:APP:simulated.mixins.json:accessor.LevelRendererAccessor from mod simulated,pl:mixin:APP:simulated.mixins.json:end_sea.LevelRendererMixin from mod simulated,pl:mixin:APP:simulated.mixins.json:rope.LevelRendererMixin from mod simulated,pl:mixin:APP:sodium-common.mixins.json:core.render.world.LevelRendererMixin from mod sodium,pl:mixin:APP:sodium-common.mixins.json:features.options.weather.LevelRendererMixin from mod sodium,pl:mixin:APP:sodium-common.mixins.json:features.render.gui.outlines.LevelRendererMixin from mod sodium,pl:mixin:APP:sodium-common.mixins.json:features.render.world.clouds.LevelRendererMixin from mod sodium,pl:mixin:APP:offroad.mixins.json:client.multimining_destruction_progress.LevelRenderMixin from mod offroad,pl:mixin:APP:cubes-without-borders.mixins.json:WorldRendererMixin from mod cubes_without_borders,pl:mixin:APP:flywheel.backend.mixins.json:LevelRendererAccessor from mod flywheel,pl:mixin:APP:flywheel.impl.mixins.json:fix.FixFabulousDepthMixin from mod flywheel,pl:mixin:APP:flywheel.impl.mixins.json:visualmanage.LevelRendererMixin from mod flywheel,pl:mixin:APP:create.mixins.json:accessor.LevelRendererAccessor from mod create,pl:mixin:APP:create.mixins.json:client.LevelRendererMixin from mod create,pl:mixin:APP:sable.mixins.json:block_decal_render.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:debug_render.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:entity.entity_rendering.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:particle.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:sky_light_shadow.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:stop_rain.LevelRenderMixin from mod sable,pl:mixin:APP:sable.mixins.json:sublevel_render.LevelRendererMixin from mod sable,pl:mixin:APP:sable.mixins.json:sublevel_render.block_entity_render.LevelRendererMixin from mod sable,pl:mixin:APP:freecam-neoforge.mixins.json:LevelRendererMixin from mod freecam,pl:mixin:APP:entityculling.mixins.json:WorldRendererMixin from mod entityculling,pl:mixin:APP:flywheel.impl.mixins.json:LevelRendererMixin from mod flywheel,pl:mixin:APP:sable.mixins.json:sublevel_render.impl.sodium.LevelRendererMixin from mod sable,pl:mixin:APP:mixins.iris.json:shadows.MixinPreventRebuildNearInShadowPass from mod iris,pl:mixin:APP:sable-neoforge.mixins.json:block_entity_visible.LevelRendererMixin from mod sable,pl:mixin:APP:sable-neoforge.mixins.json:block_outline_render.LevelRendererMixin from mod sable,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:568) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:sodium-extra.mixins.json:core.MixinMinecraftClient from mod sodium_extra,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor from mod sodium_extra,pl:mixin:APP:lithium-neoforge.mixins.json:startup.MinecraftMixin from mod lithium,pl:mixin:APP:aeronautics.mixins.json:custom_situational_music.MinecraftMixin from mod aeronautics,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftClient from mod xaeroworldmap,pl:mixin:APP:xaeroworldmap.neoforge.mixins.json:MixinForgeMinecraftClient from mod xaeroworldmap,pl:mixin:APP:modernfix-modernfix.mixins.json:bugfix.world_leaks.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.suspend_integrated_server_during_load.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.encoder_cache_leak.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.measure_time.MinecraftMixin_Forge from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.measure_time.MinecraftMixin from mod modernfix,pl:mixin:APP:mixins.iris.json:MixinMinecraft_Images from mod iris,pl:mixin:APP:mixins.iris.json:MixinMinecraft_Keybinds from mod iris,pl:mixin:APP:mixins.iris.json:MixinMinecraft_PipelineManagement from mod iris,pl:mixin:APP:veil.debug.mixins.json:client.DebugMinecraftMixin from mod veil,pl:mixin:APP:veil.pipeline.mixins.json:client.PipelineMinecraftMixin from mod veil,pl:mixin:APP:veil.neoforge.mixins.json:client.MinecraftMixin from mod veil,pl:mixin:APP:simulated.mixins.json:handle.MinecraftMixin from mod simulated,pl:mixin:APP:clientsort.mixins.json:client.MinecraftMixin from mod clientsort,pl:mixin:APP:sodium-common.mixins.json:core.MinecraftMixin from mod sodium,pl:mixin:APP:sodium-neoforge.mixins.json:platform.neoforge.EntrypointMixin from mod sodium,pl:mixin:APP:entity_model_features.mixins.json:MixinResourceReloadStart from mod entity_model_features,pl:mixin:APP:entity_model_features.mixins.json:accessor.MinecraftClientAccessor from mod entity_model_features,pl:mixin:APP:emi.mixins.json:MinecraftClientMixin from mod emi,pl:mixin:APP:entity_texture_features.mixins.json:reloading.MixinMinecraftClient from mod entity_texture_features,pl:mixin:APP:entity_texture_features.mixins.json:reloading.MixinResourceReload from mod entity_texture_features,pl:mixin:APP:flywheel.impl.mixins.json:MinecraftMixin from mod flywheel,pl:mixin:APP:ponder-common.mixins.json:client.WindowResizeMixin from mod ponder,pl:mixin:APP:create.mixins.json:accessor.MinecraftAccessor from mod create,pl:mixin:APP:sable.mixins.json:camera.new_camera_types.MinecraftMixin from mod sable,pl:mixin:APP:sable.mixins.json:plot.MinecraftMixin from mod sable,pl:mixin:APP:sable.mixins.json:punching.MinecraftMixin from mod sable,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftClient from mod xaerominimap,pl:mixin:APP:freecam-common.mixins.json:MinecraftMixin from mod freecam,pl:mixin:APP:entityculling.mixins.json:DebugScreenEntriesAccessor from mod entityculling,pl:mixin:APP:entityculling.mixins.json:LivingEntityRendererAccessor from mod entityculling,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient from mod immediatelyfast,pl:mixin:APP:architectury.mixins.json:MixinMinecraft from mod architectury,pl:mixin:APP:transition.mixins.json:EntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:EntityRendererMixin from mod transition,pl:mixin:APP:transition.mixins.json:BlockEntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:MinecraftMixin from mod transition,pl:mixin:APP:dynamic_fps-common.mixins.json:MinecraftMixin from mod dynamic_fps,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.remove_telemetry.MinecraftMixin_Telemetry from mod modernfix,pl:mixin:A,pl:runtimedistcleaner:A}
+-- Initialization --
+Details:
+	Modules: 
+		ADVAPI32.dll:Advanced Windows 32 Base API:10.0.26100.3624 (WinBuild.160101.0800):Microsoft Corporation
+		ApplicationTargetedFeatureDatabase.dll:ApplicationTargetedFeatureDatabase:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		COMCTL32.dll:User Experience Controls Library:6.10 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPT32.dll:Crypto API32:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTBASE.dll:Base cryptographic API DLL:10.0.26100.8246 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTSP.dll:Cryptographic Service Provider API:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		CoreMessaging.dll:Microsoft CoreMessaging Dll:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		DBGHELP.DLL:Windows Image Helper:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		DEVOBJ.dll:Device Information Set DLL:10.0.26100.1150 (WinBuild.160101.0800):Microsoft Corporation
+		DNSAPI.dll:DNS Client API DLL:10.0.26100.1591 (WinBuild.160101.0800):Microsoft Corporation
+		DSPARSE.dll:Active Directory Domain Services API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		GDI32.dll:GDI Client DLL:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		GLU32.dll:OpenGL Utility Library DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		IMM32.DLL:Multi-User Windows IMM32 API Client DLL:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		IPHLPAPI.DLL:IP Helper API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		KERNEL32.DLL:Windows NT BASE API Client DLL:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		KERNELBASE.dll:Windows NT BASE API Client DLL:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		MMDevApi.dll:MMDevice API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		MSCTF.dll:MSCTF Server DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		MpOav.dll:IOfficeAntiVirus Module:4.18.26030.3011 (58e93915dbf52150fd35efdb420a24f1e40d0e23):Microsoft Corporation
+		NSI.dll:NSI User-mode interface DLL:10.0.26100.8246 (WinBuild.160101.0800):Microsoft Corporation
+		NTASN1.dll:Microsoft ASN.1 API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		OLEAUT32.dll:OLEAUT32.DLL:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		OpenAL.dll:Main implementation library:1.23.1:
+		POWRPROF.dll:Power Profile Helper DLL:10.0.26100.8117 (WinBuild.160101.0800):Microsoft Corporation
+		PROPSYS.dll:Microsoft Property System:7.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		PSAPI.DLL:Process Status Helper:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		RPCRT4.dll:Remote Procedure Call Runtime:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		SHCORE.dll:SHCORE:10.0.26100.8117 (WinBuild.160101.0800):Microsoft Corporation
+		SHELL32.dll:Windows Shell Common Dll:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		UMPDC.dll:User Mode Power Dependency Coordinator:10.0.26100.8115 (WinBuild.160101.0800):Microsoft Corporation
+		USER32.dll:Multi-User Windows USER API Client DLL:10.0.26100.8117 (WinBuild.160101.0800):Microsoft Corporation
+		USERENV.dll:Userenv:10.0.26100.7920 (WinBuild.160101.0800):Microsoft Corporation
+		UxTheme.dll:Microsoft UxTheme Library:10.0.26100.7019 (WinBuild.160101.0800):Microsoft Corporation
+		VCRUNTIME140.dll:Microsoft® C Runtime Library:14.38.33135.0:Microsoft Corporation
+		VERSION.dll:Version Checking and File Installation Libraries:10.0.26100.1150 (WinBuild.160101.0800):Microsoft Corporation
+		WINHTTP.dll:Windows HTTP Services:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		WINMM.dll:MCI API DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		WS2_32.dll:Windows Socket 2.0 32-Bit DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		WinTypes.dll:Windows Base Types DLL:10.0.26100.7705 (WinBuild.160101.0800):Microsoft Corporation
+		amsi.dll:Anti-Malware Scan Interface:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		apphelp.dll:Application Compatibility Client Library:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		awt.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		bcrypt.dll:Windows Cryptographic Primitives Library:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		bcryptPrimitives.dll:Windows Cryptographic Primitives Library:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		cfgmgr32.dll:Configuration Manager DLL:10.0.26100.8115 (WinBuild.160101.0800):Microsoft Corporation
+		clbcatq.dll:COM+ Configuration Catalog:2001.12.10941.16384 (WinBuild.160101.0800):Microsoft Corporation
+		combase.dll:Microsoft COM for Windows:10.0.26100.7705 (WinBuild.160101.0800):Microsoft Corporation
+		d3d12.dll:Direct3D 12 Runtime:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		dark-menus_1.4.2_690965.dll
+		dbgcore.DLL:Windows Core Debugging Helpers:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		dinput8.dll:Microsoft DirectInput:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		directxdatabasehelper.dll:DirectXDatabaseHelper:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		dwmapi.dll:Microsoft Desktop Window Manager API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		dxcore.dll:DXCore:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		dxgi.dll:DirectX Graphics Infrastructure:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		explorer-details-better-file-sizes_1.5_940491.dll
+		extnet.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		fastprox.dll:WMI Custom Marshaller:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		fwpuclnt.dll:FWP/IPsec User-Mode API:10.0.26100.3915 (WinBuild.160101.0800):Microsoft Corporation
+		gdi32full.dll:GDI Client DLL:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		glfw.dll:GLFW 3.4.0 DLL:3.4.0:GLFW
+		icm32.dll:Microsoft Color Management Module (CMM):10.0.26100.2314 (WinBuild.160101.0800):Microsoft Corporation
+		igc64.dll:Intel Graphics Shader Compiler for Intel(R) Graphics Accelerator:32.0.101.7084:Intel Corporation
+		igdgmm64.dll:User Mode Driver for Intel(R) Graphics Technology:32.0.101.7084:Intel Corporation
+		igdml64.dll:Metrics Library for Intel(R) Graphics Technology:32.0.101.7084:Intel Corporation
+		igxelpicd64.dll:OpenGL(R) Driver for Intel(R) Graphics Accelerator:32.0.101.7084:Intel Corporation
+		inputhost.dll:InputHost:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		java.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		javaw.exe:OpenJDK Platform binary:21.0.7.0:Microsoft
+		jemalloc.dll
+		jimage.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		jli.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		jna8540301115745399371.dll:JNA native library:7.0.0:Java(TM) Native Access (JNA)
+		jsvml.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		jvm.dll:OpenJDK 64-Bit server VM:21.0.7.0:Microsoft
+		kernel.appcore.dll:AppModel API Host:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		libc++.whl
+		libunwind.whl
+		lwjgl.dll
+		lwjgl_opengl.dll
+		lwjgl_stb.dll
+		management.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		management_ext.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		mscms.dll:Microsoft Color Matching System DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		msvcp140.dll:Microsoft® C Runtime Library:14.38.33135.0:Microsoft Corporation
+		msvcp_win.dll:Microsoft® C Runtime Library:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		msvcrt.dll:Windows NT CRT DLL:7.0.26100.8246 (WinBuild.160101.0800):Microsoft Corporation
+		mswsock.dll:Microsoft Windows Sockets 2.0 Service Provider:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		napinsp.dll:E-mail Naming Shim Provider:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		ncrypt.dll:Windows NCrypt Router:10.0.26100.1591 (WinBuild.160101.0800):Microsoft Corporation
+		net.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		nio.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		nlansp_c.dll:NLA Namespace Service Provider DLL:10.0.26100.8115 (WinBuild.160101.0800):Microsoft Corporation
+		ntdll.dll:NT Layer DLL:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		ntmarta.dll:Windows NT MARTA provider:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		ole32.dll:Microsoft OLE for Windows:10.0.26100.6725 (WinBuild.160101.0800):Microsoft Corporation
+		opengl32.dll:OpenGL Client DLL:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		pdh.dll:Windows Performance Data Helper DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		perfos.dll:Windows System Performance Objects DLL:10.0.26100.7705 (WinBuild.160101.0800):Microsoft Corporation
+		perfproc.dll:Windows System Process Performance Objects DLL:10.0.26100.7705 (WinBuild.160101.0800):Microsoft Corporation
+		pfclient.dll:SysMain Client:10.0.26100.4202 (WinBuild.160101.0800):Microsoft Corporation
+		profapi.dll:User Profile Basic API:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		rasadhlp.dll:Remote Access AutoDial Helper:10.0.26100.7920 (WinBuild.160101.0800):Microsoft Corporation
+		rsaenh.dll:Microsoft Enhanced Cryptographic Provider:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		sechost.dll:Host for SCM/SDDL/LSA Lookup APIs:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		shlwapi.dll:Shell Light-weight Utility Library:10.0.26100.8117 (WinBuild.160101.0800):Microsoft Corporation
+		sunmscapi.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		textinputframework.dll:"TextInputFramework.DYNLINK":10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		twinapi.appcore.dll:twinapi.appcore:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		ucrtbase.dll:Microsoft® C Runtime Library:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		vcruntime140_1.dll:Microsoft® C Runtime Library:14.38.33135.0:Microsoft Corporation
+		verify.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		wbemcomn.dll:WMI:10.0.26100.7920 (WinBuild.160101.0800):Microsoft Corporation
+		wbemprox.dll:WMI:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		wbemsvc.dll:WMI:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		win32u.dll:Win32u:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		windhawk.dll:Windhawk:1.7.3:Ramen Software
+		windows.staterepositorycore.dll:Windows StateRepository API Core:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		windows.storage.dll:Microsoft WinRT Storage API:10.0.26100.8117 (WinBuild.160101.0800):Microsoft Corporation
+		winrnr.dll:LDAP RnR Provider DLL:10.0.26100.8514 (WinBuild.160101.0800):Microsoft Corporation
+		wshbth.dll:Windows Sockets Helper DLL:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		wshunix.dll:AF_UNIX Winsock2 Helper DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		xinput1_4.dll:Microsoft Common Controller API:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		zip.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[client-1.21.1-20240808.144430-srg.jar%23229!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:veil.debug.mixins.json:client.DebugMainMixin from mod veil,pl:mixin:APP:cubes-without-borders.mixins.json:MainMixin from mod cubes_without_borders,pl:mixin:A,pl:runtimedistcleaner:A}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23161!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.42.jar%23161!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.42.jar%23161!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.42.jar%23161!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23166!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23166!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23166!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23166!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23166!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23166!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23166!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) [ForgeWrapper-prism-2025-12-07.jar:prism-2025-12-07] {}
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115) [NewLaunch.jar:?] {}
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) [NewLaunch.jar:?] {}
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) [NewLaunch.jar:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.7, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 678848848 bytes (647 MiB) / 1509949440 bytes (1440 MiB) up to 12884901888 bytes (12288 MiB)
+	CPUs: 10
+	Processor Vendor: GenuineIntel
+	Processor Name: 13th Gen Intel(R) Core(TM) i5-1334U
+	Identifier: Intel64 Family 6 Model 186 Stepping 3
+	Microarchitecture: Raptor Lake
+	Frequency (GHz): 2.50
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 10
+	Graphics card #0 name: Intel(R) Iris(R) Xe Graphics
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 2048.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.101.7084
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 37275.59
+	Virtual memory used (MiB): 23725.32
+	Swap memory total (MiB): 4864.00
+	Swap memory used (MiB): 69.99
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 573368.06, total: 952029.00
+	Space in storage for workdir (MiB): available: 573368.06, total: 952029.00
+	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms512m -Xmx12288m
+	Loaded Shaderpack: (off)
+	Launched Version: 1.21.1
+	Launcher name: PrismLauncher
+	Backend library: LWJGL version 3.3.3+5
+	Backend API: Intel(R) Iris(R) Xe Graphics GL version 4.6.0 - Build 32.0.101.7084, Intel
+	Window size: <not initialized>
+	GFLW Platform: win32
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Is Modded: Definitely; Client brand changed to 'neoforge'
+	Universe: 404
+	Type: Client (map_client.txt)
+	Locale: en_TT
+	System encoding: Cp1252
+	File encoding: UTF-8
+	CPU: 10x 13th Gen Intel(R) Core(TM) i5-1334U
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclient
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		appleskin-neoforge-mc1.21-3.0.9.jar               |AppleSkin                     |appleskin                     |3.0.9+mc1.21        |Manifest: NOSIGNATURE
+		architectury-13.0.8-neoforge.jar                  |Architectury                  |architectury                  |13.0.8              |Manifest: NOSIGNATURE
+		clientsort-neoforge-2.2.1+1.21.1.jar              |ClientSort                    |clientsort                    |2.2.1+1.21.1        |Manifest: NOSIGNATURE
+		cloth-config-15.0.140-neoforge.jar                |Cloth Config v15 API          |cloth_config                  |15.0.140            |Manifest: NOSIGNATURE
+		collective-1.21.1-8.22.jar                        |Collective                    |collective                    |8.22                |Manifest: NOSIGNATURE
+		Controlling-neoforge-1.21.1-19.0.5.jar            |Controlling                   |controlling                   |19.0.5              |Manifest: NOSIGNATURE
+		cosmeticarmorreworkedforked-neoforge-1.21.1-0.0.4.|CosmeticArmorReworkedForked   |cosmeticarmorreworkedforked   |1.21.1-0.0.4        |Manifest: NOSIGNATURE
+		create-1.21.1-6.0.10.jar                          |Create                        |create                        |6.0.10              |Manifest: NOSIGNATURE
+		dev.eriksonn.aeronautics.aeronautics-neoforge-1.21|Create Aeronautics            |aeronautics                   |1.2.1               |Manifest: NOSIGNATURE
+		create-aeronautics-bundled-1.21.1-1.2.1.jar       |Create Aeronautics            |aeronautics_bundled           |1.2.1               |Manifest: NOSIGNATURE
+		createaddition-1.5.11.jar                         |Create Crafts & Additions     |createaddition                |1.5.11              |Manifest: NOSIGNATURE
+		dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.2.|Create Offroad                |offroad                       |1.2.1               |Manifest: NOSIGNATURE
+		dev.simulated_team.simulated.simulated-neoforge-1.|Create Simulated              |simulated                     |1.2.1               |Manifest: NOSIGNATURE
+		create_connected-1.1.16-mc1.21.1.jar              |Create: Connected             |create_connected              |1.1.16-mc1.21.1     |Manifest: NOSIGNATURE
+		create_easy_structures-0.2a-neoforge-1.21.1.jar   |Create: Easy Structures       |create_easy_structures        |0.2                 |Manifest: NOSIGNATURE
+		garnished-april-foods-26-neoforged.jar            |Create: Garnished             |garnished                     |26-april-foods      |Manifest: NOSIGNATURE
+		cwb-neoforge-3.0.0+mc1.21.jar                     |Cubes Without Borders         |cubes_without_borders         |3.0.0+mc1.21        |Manifest: NOSIGNATURE
+		curios-neoforge-9.5.1+1.21.1.jar                  |Curios API                    |curios                        |9.5.1+1.21.1        |Manifest: NOSIGNATURE
+		dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar  |Dynamic FPS                   |dynamic_fps                   |3.11.4              |Manifest: NOSIGNATURE
+		e4mc-neoforge-6.1.0.jar                           |e4mc                          |e4mc                          |6.1.0               |Manifest: NOSIGNATURE
+		emi-1.1.24+1.21.1+neoforge.jar                    |EMI                           |emi                           |1.1.24+1.21.1+neofor|Manifest: NOSIGNATURE
+		entity_model_features-3.2.4-1.21-neoforge.jar     |Entity Model Features         |entity_model_features         |3.2.4               |Manifest: NOSIGNATURE
+		entity_texture_features_1.21-neoforge-7.1.jar     |Entity Texture Features       |entity_texture_features       |7.1                 |Manifest: NOSIGNATURE
+		entityculling-neoforge-1.10.2-mc1.21.1.jar        |EntityCulling                 |entityculling                 |1.10.2              |Manifest: NOSIGNATURE
+		ferritecore-7.0.3-neoforge.jar                    |Ferrite Core                  |ferritecore                   |7.0.3               |Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		flywheel-neoforge-1.21.1-1.0.6.jar                |Flywheel                      |flywheel                      |1.0.6               |Manifest: NOSIGNATURE
+		fabric-api-base-0.4.42+d1308ded19.jar             |Forgified Fabric API Base     |fabric_api_base               |0.4.42+d1308ded19   |Manifest: NOSIGNATURE
+		fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar    |Forgified Fabric BlockView API|fabric_block_view_api_v2      |1.0.10+9afaaf8c19   |Manifest: NOSIGNATURE
+		fabric-renderer-api-v1-3.4.1+9125b6dc19.jar       |Forgified Fabric Renderer API |fabric_renderer_api_v1        |3.4.1+9125b6dc19    |Manifest: NOSIGNATURE
+		fabric-rendering-data-attachment-v1-0.3.48+73761d2|Forgified Fabric Rendering Dat|fabric_rendering_data_attachme|0.3.48+73761d2e19   |Manifest: NOSIGNATURE
+		freecam-neoforge-1.3.0+mc1.21.jar                 |Freecam                       |freecam                       |1.3.0+mc1.21        |Manifest: NOSIGNATURE
+		fullbrightnesstoggle-1.21.1-4.4.jar               |Full Brightness Toggle        |fullbrightnesstoggle          |4.4                 |Manifest: NOSIGNATURE
+		ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar        |ImmediatelyFast               |immediatelyfast               |1.6.10+1.21.1       |Manifest: NOSIGNATURE
+		iris-neoforge-1.8.12+mc1.21.1.jar                 |Iris                          |iris                          |1.8.12-snapshot+mc1.|Manifest: NOSIGNATURE
+		Jade-1.21.1-NeoForge-15.10.5.jar                  |Jade                          |jade                          |15.10.5+neoforge    |Manifest: NOSIGNATURE
+		jei-1.21.1-neoforge-19.27.0.340.jar               |Just Enough Items             |jei                           |19.27.0.340         |Manifest: NOSIGNATURE
+		lithium-neoforge-0.15.3+mc1.21.1.jar              |Lithium                       |lithium                       |0.15.3+mc1.21.1     |Manifest: NOSIGNATURE
+		client-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		Mod Menu (NeoForge Edition) 1.21.1-1.0.2.jar      |Mod Menu (NeoForge Edition)   |mod_menu                      |1.0.2               |Manifest: NOSIGNATURE
+		modernfix-neoforge-5.27.7+mc1.21.1.jar            |ModernFix                     |modernfix                     |5.27.7+mc1.21.1     |Manifest: NOSIGNATURE
+		MouseTweaks-neoforge-mc1.21-2.26.1.jar            |Mouse Tweaks                  |mousetweaks                   |2.26.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.228-universal.jar                   |NeoForge                      |neoforge                      |21.1.228            |Manifest: NOSIGNATURE
+		ok_zoomer-neo-10.0.0-beta.13.jar                  |Ok Zoomer                     |ok_zoomer                     |10.0.0-beta.13      |Manifest: NOSIGNATURE
+		TextPlaceholderAPI-neoforge-e1a427d5b9.jar        |Placeholder API Neoforge      |placeholder_api               |2.4.1+1.21          |Manifest: NOSIGNATURE
+		ponder-neoforge-1.0.82+mc1.21.1.jar               |Ponder                        |ponder                        |1.0.82+mc1.21.1     |Manifest: NOSIGNATURE
+		reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar |Reese's Sodium Options        |reeses_sodium_options         |1.8.3+mc1.21.4      |Manifest: NOSIGNATURE
+		sable-neoforge-1.21.1-1.2.2.jar                   |Sable                         |sable                         |1.2.2               |Manifest: NOSIGNATURE
+		sable-companion-common-1.21.1-1.6.0.jar           |Sable Companion               |sablecompanion                |1.6.0               |Manifest: NOSIGNATURE
+		Searchables-neoforge-1.21.1-1.0.2.jar             |Searchables                   |searchables                   |1.0.2               |Manifest: NOSIGNATURE
+		net.caffeinemc.sodium-neoforge-0.8.12-alpha.2+mc1.|Sodium                        |sodium                        |0.8.12-alpha.2+mc1.2|Manifest: NOSIGNATURE
+		sodium-extra-neoforge-0.6.0+mc1.21.1.jar          |Sodium Extra                  |sodium_extra                  |0.6.0+mc1.21.1      |Manifest: NOSIGNATURE
+		TRansition-1.0.19-1.21.1-neoforge-SNAPSHOT.jar    |TRansition                    |transition                    |1.0.19              |Manifest: NOSIGNATURE
+		TRender-1.0.13-1.21.1-neoforge-SNAPSHOT.jar       |TRender                       |trender                       |1.0.13              |Manifest: NOSIGNATURE
+		veil-neoforge-1.21.1-4.0.0.jar                    |Veil                          |veil                          |4.0.0               |Manifest: NOSIGNATURE
+		api_neoforge-0.8.1.jar                            |Wrench Wrapper                |wrench_wrapper                |0.8.1               |Manifest: NOSIGNATURE
+		impl-0.8.1.jar                                    |Wrench Wrapper (Backend)      |wrench_wrapper_backend        |0.8.1               |Manifest: NOSIGNATURE
+		xaerominimap-neoforge-1.21.1-25.3.13.jar          |Xaero's Minimap               |xaerominimap                  |25.3.13             |Manifest: NOSIGNATURE
+		xaeroworldmap-neoforge-1.21.1-1.40.16.jar         |Xaero's World Map             |xaeroworldmap                 |1.40.16             |Manifest: NOSIGNATURE
+		xaerolib-neoforge-1.21.1-1.1.15.jar               |XaeroLib                      |xaerolib                      |1.1.15              |Manifest: NOSIGNATURE
+	Crash Report UUID: 3f8907f2-1d86-40b2-bb10-f63f3fe81015
+	FML: 4.0.42
+	NeoForge: 21.1.228
+	Flywheel Backend: flywheel:off

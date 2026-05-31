@@ -1,0 +1,39 @@
+{
+  "create_connected:root": {
+    "criteria": {
+      "0": "2026-05-30 12:02:31 -0400"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2026-05-30 12:02:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-05-30 11:59:20 -0400"
+    },
+    "done": true
+  },
+  "simulated:root": {
+    "criteria": {
+      "0": "2026-05-30 12:02:31 -0400"
+    },
+    "done": true
+  },
+  "aeronautics:root": {
+    "criteria": {
+      "0": "2026-05-30 12:02:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:desert": "2026-05-30 11:59:21 -0400"
+    },
+    "done": false
+  },
+  "DataVersion": 3955
+}

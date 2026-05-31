@@ -1,0 +1,18 @@
+filename = 'refinedstorage-neoforge-2.0.8.jar'
+name = 'Refined Storage'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.8'
+
+[download]
+hash = '835640a9b17f3e9d1d86b6af87f69979489b6df950cf2616d528aef67ea39e7682a84c4bcc8fb774ff67fc557008927073e6d02472ce65465219b5884c425ee3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/KDvYkUg3/versions/kxRNbIBe/refinedstorage-neoforge-2.0.8.jar'
+
+[update.modrinth]
+mod-id = 'KDvYkUg3'
+version = 'kxRNbIBe'
